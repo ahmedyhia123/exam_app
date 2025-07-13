@@ -5,6 +5,14 @@ abstract class AppThem {
   static ThemeData getTheme(ColorScheme colorScheme) {
     return ThemeData(
       colorScheme: colorScheme,
+      textTheme: TextTheme(
+        bodyLarge: TextStyle(fontSize: 16, color: colorScheme.secondary),
+        bodyMedium: TextStyle(fontSize: 14, color: colorScheme.secondary),
+        bodySmall: TextStyle(fontSize: 12, color: colorScheme.secondary),
+        titleLarge: TextStyle(fontSize: 20, color: colorScheme.secondary),
+        titleMedium: TextStyle(fontSize: 18, color: colorScheme.secondary),
+        titleSmall: TextStyle(fontSize: 16, color: colorScheme.secondary),
+      ),
       inputDecorationTheme: InputDecorationTheme(
         labelStyle: const TextStyle(color: AppColors.lightGray),
         enabledBorder: OutlineInputBorder(
@@ -32,7 +40,7 @@ abstract class AppThem {
         style: FilledButton.styleFrom(
           backgroundColor: AppColors.blue,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(16),
+            borderRadius: BorderRadius.circular(20),
           ),
         ),
       ),

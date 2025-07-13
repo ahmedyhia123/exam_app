@@ -2,7 +2,7 @@ import 'package:exam_app/core/DI/di.dart';
 import 'package:exam_app/core/l10n/translations/app_localizations.dart';
 import 'package:exam_app/core/provider/app_config_provider.dart';
 import 'package:exam_app/core/route/app_routes.dart';
-import 'package:exam_app/features/auth/presentation/pages/login_page.dart';
+import 'package:exam_app/features/auth/presentation/views/login_page.dart';
 import 'package:flutter/material.dart';
 
 abstract class Routes {

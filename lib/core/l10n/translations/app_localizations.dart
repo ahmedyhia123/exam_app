@@ -103,6 +103,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Exam App'**
   String get appName;
+
+  /// No description provided for @login.
+  ///
+  /// In en, this message translates to:
+  /// **'Login'**
+  String get login;
 }
 
 class _AppLocalizationsDelegate

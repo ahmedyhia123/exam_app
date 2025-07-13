@@ -10,4 +10,7 @@ class AppLocalizationsAr extends AppLocalizations {
 
   @override
   String get appName => 'امتحانات اونلاين';
+
+  @override
+  String get login => 'تسجيل الدخول';
 }
